@@ -1,0 +1,181 @@
+{
+	"users": [
+		{
+			"tweets": [
+				{
+					"text": "RT @PostGradProblem: In preparation for the NFL lockout, I will be spending twice as much time analyzing my fantasy baseball team during ...",
+					"date": "2014-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "PostGradProblem",
+								"id_str": "271572434",
+								"name": "PostGradProblems",
+								"profile_pic": "https://pbs.twimg.com/profile_images/2248979948/graduation-hats1_400x400.jpg",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "RT @PostGradProblem: How to spot first stories on Twitter using Storm",
+					"date": "2015-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "PostGradProblem",
+								"id_str": "271572434",
+								"name": "PostGradProblems",
+								"profile_pic": "https://pbs.twimg.com/profile_images/2248979948/graduation-hats1_400x400.jpg",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "RT @AngularJSNews: Upload JavaScript code samples to be considered for AngularJS jobs here...",
+					"date": "2017-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "AngularJSNews",
+								"id_str": "271572434",
+								"name": "AngularJSNews",
+								"profile_pic": "https://pbs.twimg.com/profile_images/436105065598689281/Fm7w2M89_bigger.png",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "Presentation: Racket: Metaprogramming Time!: Matthew Flatt introduces Racket, an extensible",
+					"date": "2017-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "ComputingNow",
+								"id_str": "271572434",
+								"name": "ComputingNow",
+								"profile_pic": "https://pbs.twimg.com/profile_images/436105065598689281/Fm7w2M89_bigger.png",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "CodeFollow looks really interesting as a workshop or web presentation tool",
+					"date": "2017-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "alexsmith",
+								"id_str": "271572434",
+								"name": "Alex Smith",
+								"profile_pic": "https://pbs.twimg.com/profile_images/531839819740381184/8DtpgWJB_400x400.jpeg",
+								"id": 271572434
+							}
+						]
+					}
+				}
+			],
+			"user": {
+				"profile_use_background_image": true,
+				"statuses_count": 351,
+				"profile_background_color": "C0DEED",
+				"followers_count": 48,
+				"profile_image_url": "https://pbs.twimg.com/profile_images/531839819740381184/8DtpgWJB_400x400.jpeg",
+				"listed_count": 0,
+				"profile_background_image_url": "http://a3.twimg.com/a/1300479984/images/themes/theme1/bg.png",
+				"description": "watcha doin in my waters?",
+				"id_str": "80177619",
+				"friends_count": 81,
+				"name": "Alex Smith",
+				"screen_name":"alexsmith",
+				"id": 80177619
+			},
+			"id": 54691802283900930
+		},
+		{
+			"tweets": [
+				{
+					"text": "'I gave them the captain's incentive: whoever goes and gets a fifty gets half my match fee' - Brathwaite",
+					"date": "2014-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "espncricinfo",
+								"id_str": "271572434",
+								"name": "EspnCricinfo",
+								"profile_pic": "https://pbs.twimg.com/profile_images/436105065598689281/Fm7w2M89_bigger.png",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "RT @AngularJSNews: Upload JavaScript code samples to be considered for AngularJS jobs here...",
+					"date": "2014-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "AngularJSNews",
+								"id_str": "271572434",
+								"name": "AngularJSNews",
+								"profile_pic": "https://pbs.twimg.com/profile_images/436105065598689281/Fm7w2M89_bigger.png",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "RT @PostGradProblem: How to spot first stories on Twitter using Storm",
+					"date": "2015-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "PostGradProblem",
+								"id_str": "271572434",
+								"name": "PostGradProblems",
+								"profile_pic": "https://pbs.twimg.com/profile_images/2248979948/graduation-hats1_400x400.jpg",
+								"id": 271572434
+							}
+						]
+					}
+				},
+				{
+					"text": "The purpose of this guide is to impart a solid understanding of the process",
+					"date": "2015-03-12T13:37:27+00:00",
+					"entities": {
+						"user_mentions": [
+							{
+								"screen_name": "sarahsmith",
+								"id_str": "271572434",
+								"name": "sarahsmith",
+								"profile_pic": "http://3.bp.blogspot.com/-fvQG2F0a8qg/UCEFyRnOg-I/AAAAAAAAD-I/Lp4J4v3Ijv0/s1600/profile.jpg",
+								"id": 271572434
+							}
+						]
+					}
+				}
+			],
+			"user": {
+				"profile_use_background_image": true,
+				"statuses_count": 450,
+				"profile_background_color": "C0DEED",
+				"followers_count": 200,
+				"profile_image_url": "http://3.bp.blogspot.com/-fvQG2F0a8qg/UCEFyRnOg-I/AAAAAAAAD-I/Lp4J4v3Ijv0/s1600/profile.jpg",
+				"listed_count": 0,
+				"profile_background_image_url": "http://a3.twimg.com/a/1300479984/images/themes/theme1/bg.png",
+				"description": "watcha doin in my waters?",
+				"id_str": "80177619",
+				"friends_count": 281,
+				"protected": false,
+				"favourites_count": 0,
+				"name": "sarahsmith",
+				"screen_name":"sarahsmith",
+				"id": 80177619
+			},
+			"id": 54691802283900930
+		}
+	]
+}

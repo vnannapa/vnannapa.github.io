@@ -1,0 +1,676 @@
+.icon {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.right .icon {
+    vertical-align: middle;
+    padding-left: 0px;
+}
+
+.content {
+    background: #EFEFF6;
+}
+
+.header {
+    padding-top: 5px;
+    background: #00aced;
+    height: 40px;
+    margin: 0px;
+    width: 100%;
+}
+
+body {
+    background-position: left 40px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-color: #C0DEED;
+}
+
+.global-nav {
+    background-position: 0 0;
+    background-color: #1DA1F2 !important;
+    background-image: none !important;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+    color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: white;
+    opacity: 1;
+}
+
+html, body, #doc, #page-outer {
+    height: 0% !important;
+}
+
+body{
+    background-color: #e6ecf0 !important;
+}
+
+.icons {
+    display: inline;
+    padding-right: 10px;
+}
+
+.user {
+    height: 25px;
+}
+
+.settings {
+    height: 22px; !important;
+    width: 40px;
+}
+.message,
+.tweet-icon{
+    height: 37px;
+    width: 40px;
+}
+
+.twitter {
+    position:absolute;
+    left:49%;
+    height: 40px;
+    width: 50px !important;
+}
+
+div.right {
+    width: 30%;
+    right: -60px;
+    position:absolute;
+}
+
+.search {
+    border-radius: 16px;
+    height: 20px;
+    width: 40%;
+    background: url('images/search.svg') no-repeat;
+    background-color: #c5e2f8;
+    background-position: right;
+}
+
+input.search:focus{
+    background-image:none;
+}
+
+.section {
+    color: #00BAFC !important;
+    border-radius: 4px;
+    border: 1px solid ghostwhite;
+    padding: 10px 10px 10px 10px;
+}
+
+.section a {
+    color: #00BAFC !important;
+    padding-bottom: 1px;
+}
+
+.trends > a {
+    display: block;
+}
+
+.head {
+    font-size: large;
+    color: #8B8B8B;
+}
+
+.trends {
+    font-size: small;
+    color: #00aced;
+}
+
+.btn-link {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.btn-link:hover, .btn-link:focus {
+    outline: 0;
+    text-decoration: underline;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: #0084b4;
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0
+}
+
+a:hover, a:focus {
+    text-decoration: underline
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin: 0;
+    text-rendering: optimizeLegibility
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px
+}
+
+p {
+    margin: 0
+}
+
+small {
+    font-size: 12px
+}
+
+.hidden {
+    display: none
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0
+}
+
+ul {
+    list-style: none
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 20px
+}
+
+button {
+    margin: 0
+}
+
+img {
+    border: 0
+}
+
+.clearfix:before, .clearfix:after, .control-group:before, .control-group:after, .stream-item > div:before, .stream-item > div:after, .module:after, .module:before, .follow-bar:after, .follow-bar:before, .tweet-form:after, .tweet-form:before, .modal-footer:after, .modal-footer:before, .input-prepend .add-on, .input-append .add-on, .wrapper:after, .wrapper:before, .expanded-content:before, .expanded-content:after, .stream-item:before, .stream-item:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after, .control-group:after, .stream-item > div:after, .module:after, .follow-bar:after, .tweet-form:after, .modal-footer:after, .wrapper:after, .expanded-content:after, .stream-item:after {
+    clear: both
+}
+
+.global-nav {
+    background-position: 0 0;
+    background-color: #252525
+}
+
+i, .icon {
+    display: inline-block;
+    background-repeat: no-repeat
+}
+
+.more-tweet-actions .action-more-container, .more-tweet-actions .action-more-container .dropdown {
+    display: inline-block
+}
+
+body {
+    overflow-y: scroll
+}
+
+html, body, #doc, #page-outer {
+    height: 100%
+}
+
+.wrapper, .wrapper-narrow {
+    position: relative;
+    width: 837px;
+    min-height: 100%;
+    padding: 54px 14px 15px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding-bottom: 0
+}
+
+.dashboard {
+    float: left;
+    width: 302px
+}
+
+.content-main, .content-narrow, .page-canvas, .permalink {
+    border-radius: 6px
+}
+
+.content-main {
+    float: right;
+    width: 522px
+}
+
+.module {
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 16px;
+    border-radius: 6px;
+    background-clip: padding-box
+}
+
+.module {
+    text-shadow: 0 1px 0 #fff;
+    border: 1px solid #eee;
+    border: 1px solid rgba(0, 0, 0, .1)
+}
+
+.module .flex-module {
+    background-color: #f9f9f9;
+    padding: 12px;
+    line-height: 16px
+}
+
+.flex-module-header {
+    margin-bottom: 10px
+}
+
+.flex-module-inner, .flex-module-footer {
+    color: #999;
+    font-size: 12px
+}
+
+.flex-module-inner ul, .flex-module-inner ol {
+    color: #333
+}
+
+.module ul + .flex-module {
+    border-top: 1px solid #e8e8e8
+}
+
+.content-header, .content-no-header {
+    border: 1px solid #eee;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 6px 6px 0 0;
+    background-clip: padding-box
+}
+
+.content-header {
+    border-bottom-width: 0
+}
+
+.content-header .header-inner, .content-no-header .no-header-inner {
+    min-height: 20px;
+    padding: 12px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 5px 5px 0 0
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .25)
+}
+
+.global-nav, .global-nav-outer {
+    height: 40px
+}
+
+.global-nav {
+    position: relative;
+    width: 100%
+}
+
+.site-footer ul {
+    line-height: 18px
+}
+
+.site-footer li {
+    display: inline
+}
+
+.site-footer li, .site-footer a {
+    color: #999
+}
+
+.site-footer li {
+    float: left;
+    padding-right: 8px
+}
+
+.site-footer:hover a, .site-footer a:focus {
+    color: #555
+}
+
+.mini-profile {
+    font-size: 12px
+}
+
+.mini-profile img {
+    float: left
+}
+
+.mini-profile .content {
+    margin-left: 42px
+}
+
+.mini-profile .profile-summary .fullname {
+    display: block;
+    font-size: 14px;
+    color: #333
+}
+
+.mini-profile .metadata {
+    font-size: 11px
+}
+
+.stats {
+    overflow: hidden;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8
+}
+
+.stats li {
+    display: inline
+}
+
+.stats a {
+    float: left;
+    padding: 7px 12px;
+    color: #999;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    border-left: 1px solid #e8e8e8
+}
+
+.stats a:hover, .stats a:focus {
+    text-decoration: none
+}
+
+.stats a strong {
+    display: block;
+    color: #333;
+    font-size: 14px
+}
+
+.stats li:first-child a {
+    border-left: 0
+}
+
+.module .tweet-box {
+    line-height: 1
+}
+
+.profile-summary {
+    cursor: pointer
+}
+
+.tweet-user {
+    padding: 10px 12px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 5px 5px
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    -moz-force-broken-image-icon: 1
+}
+
+s {
+    text-decoration: none
+}
+
+b {
+    font-weight: normal
+}
+
+.account-group:hover, .account-summary:focus .account-group {
+    text-decoration: none
+}
+
+.account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname {
+    text-decoration: underline
+}
+
+.account-group:hover .username, .account-group:focus .username, .account-summary:focus .username {
+    text-decoration: none;
+    color: #999
+}
+
+.fullname {
+    font-weight: bold;
+    color: #333
+}
+
+.username, .time, .time a, .metadata, .metadata button.btn-link, .metadata a {
+    font-size: 12px;
+    color: #999
+}
+
+.metadata a.tweet-geo-text .sm-geo {
+    margin: 0 4px;
+    background-color: #999
+}
+
+.username s, .account-group-inner s {
+    color: #bbb
+}
+
+.account-summary {
+    position: relative;
+    padding-left: 10px;
+    display: block;
+    min-height: 48px
+}
+
+.account-summary:hover, .account-summary:focus, .account-group:focus {
+    text-decoration: none
+}
+
+.account-summary .avatar {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.account-summary .content {
+    margin-left: 58px;
+    margin-right: 20px
+}
+
+.account-summary .account-group, .account-summary .account-action {
+    display: block;
+    line-height: 16px
+}
+
+.account-summary .account-group-inner, .account-summary .metadata {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.profile-summary .account-summary {
+    margin-bottom: 0
+}
+
+.account-summary-small {
+    min-height: 32px
+}
+
+.account-summary-small .content {
+    margin-left: 42px
+}
+
+.stream, .stream-items {
+    position: relative;
+    margin-left: 0;
+    list-style: none
+}
+
+.stream-item, .unfocusable-stream-item {
+    background: #fff;
+    border-left: 1px solid #e8e8e8;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    border-right: 1px solid #e8e8e8;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    background-clip: padding-box
+}
+
+.stream-item-header .avatar {
+    float: left;
+    margin-top: 3px;
+    margin-left: -58px
+}
+
+.stream-item .content {
+    margin-left: 58px
+}
+
+.stream-item-header .account-group {
+    color: #999
+}
+
+.account, .interest-category, .list, .saved-search, .tweet, .app, .discover-item {
+    position: relative;
+    min-height: 51px;
+    padding: 9px 12px;
+    border-bottom: 1px solid #e8e8e8
+}
+
+.tweet {
+    cursor: pointer
+}
+
+.tweet p {
+    word-wrap: break-word
+}
+
+.tweet .details {
+    display: inline-block;
+    margin-right: 2px
+}
+
+.tweet .stream-item-footer {
+    font-size: 12px;
+    padding-top: 3px
+}
+
+.tweet .time {
+    position: relative;
+    float: right;
+    margin-top: 1px;
+    color: #bbb
+}
+
+.tweet-actions {
+    display: none
+}
+
+.tweet-actions li {
+    display: inline
+}
+
+.tweet-actions a, .tweet-actions button {
+    margin-left: 8px
+}
+
+.tweet-actions a {
+    color: #999
+}
+
+.stream .stream-item-footer {
+    position: relative
+}
+
+.stream .stream-item .stream-item-footer .details {
+    white-space: nowrap
+}
+
+.stream .stream-item-footer .tweet-actions {
+    position: absolute;
+    right: 1px;
+    padding-left: 5px
+}
+
+.tweet:hover .tweet-actions, .tweet.focus .tweet-actions, .stream-item.open .original-tweet .tweet-actions, .permalink-tweet .tweet-actions, .simple-tweet.open .tweet-actions, .stream-item-activity.opened-tweet .tweet-actions, .show-tweet-actions-on-auto-expand .auto-expanded .tweet-actions, .media-slideshow-tweet .tweet:hover .tweet-actions, .gallery-tweet .tweet .tweet-actions, .supplement.open .original-tweet .tweet-actions {
+    display: inline-block
+}
+
+.tweet:hover {
+    background-color: #f5f5f5
+}
+
+.username {
+    direction: ltr;
+    unicode-bidi: embed
+}
+
+form {
+    font-size: 12px;
+    margin-bottom: 0
+}
+
+label, input, textarea, div[contenteditable="true"], select {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px
+}
+
+button {
+    border: 0
+}
+
+input, textarea, div[contenteditable="true"], select {
+    display: inline-block;
+    width: 210px;
+    padding: 4px;
+    margin: 0;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px
+}
+
+input, textarea, div[contenteditable="true"] {
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .075);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .075);
+    -webkit-transition: .2s linear background;
+    -moz-transition: .2s linear background;
+    transition: .2s linear background
+}
+
+input:focus, textarea:focus, div[contenteditable="true"]:focus {
+    outline: 0;
+    color: #333;
+    border-color: #56b4ef;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 0 8px rgba(82, 168, 236, .6);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 0 8px rgba(82, 168, 236, .6)
+}

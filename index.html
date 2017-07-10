@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class=''>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body dir="ltr" ng-app="app" ng-controller="mainController">
+<div id="doc" class="route-home">
+    <div class="topbar">
+        <div class="global-nav" data-section-term="top_nav">
+            <div class = "header">
+                <div class="icons">
+                    <img class = "icon home" src="css/images/home.svg"> </img>
+                    <span> Home </span>
+                </div>
+                <div class="icons">
+                    <img class = "icon @" src="css/images/@.svg"> </img>
+                    <span>Connect </span>
+                </div>
+                <div class="icons">
+                    <img class = "icon hash" src="css/images/hash.svg"> </img>
+                    <span> Discover </span>
+                </div>
+                <div class="icons">
+                    <img class = "icon user" src="css/images/user.svg"> </img>
+                    <span> Me </span>
+                </div>
+                <img class = "icon twitter" src="css/images/twitter.svg"> </img>
+                <div class="icons right">
+                    <input class = "search" placeholder = "Search">
+                    <img class = "icon message" src="css/images/message.svg">  </img>
+                    <img class = "icon settings" src="css/images/settings.svg">  </img>
+                    <img class = "icon tweet-icon" src="css/images/tweet.svg">  </img>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="page-outer">
+    <div id="page-container" class="wrapper wrapper-home">
+        <div class="dashboard">
+            <div class="module mini-profile">
+                <div class="flex-module profile-summary js-profile-summary">
+                    <div class="profile-header-inner-overlay hidden"></div>
+                    <a href="#"
+                       class="account-summary account-summary-small js-nav"
+                       data-nav="profile">
+                        <div class="content">
+                            <div class="account-group js-mini-current-user">
+                                <img class="avatar"
+                                     src="{{data.user.profile_image_url}}">
+                                <b class="fullname">{{data.user.name}}</b>
+                                <span class="screen-name hidden">@{{data.user.screen_name}}</span>
+                                <small class="metadata">
+                                    @{{data.user.screen_name}}
+                                </small>
+                                <br/>
+                                <button ng-click="switch_account()" >Switch User</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="js-mini-profile-stats-container">
+                    <ul class="stats js-mini-profile-stats">
+                        <li><a class="js-nav">
+                            <strong>{{data.user.statuses_count}}</strong> Tweets
+                        </a>
+                        </li>
+                        <li><a class="js-nav">
+                            <strong>{{data.user.friends_count}}</strong> Following
+                        </a>
+                        </li>
+                        <li><a class="js-nav">
+                            <strong>{{data.user.followers_count}}</strong> Followers
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="home-tweet-box tweet-box component tweet-user">
+                    <form ng-submit="create_tweet()">
+                        <input placeholder="{{placeholder}}" class="tweet-box-shadow" ng-model="tweet.text" />
+                    </form>
+                </div>
+            </div>
+            <div class="module site-footer">
+                <div class="flex-module">
+                    <div class="flex-module-inner js-items-container">
+                        <ul class="section trends">
+                            <span class = "head"> Trends </span>
+                            <span> Change </span>
+                            <a> #DevilsDue </a>
+                            <a> Vegas </a>
+                            <a> Google </a>
+                            <a> #SJSharks </a>
+                            <a> #PriceofGold </a>
+                            <a> Tonya Harding </a>
+                            <a> #NBABallot </a>
+                            <a> San Francisco </a>
+                            <a> #Nashto1mill </a>
+                            <a> #SWVReunited </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="module site-footer ">
+                <div class="flex-module">
+                    <div class="flex-module-inner js-items-container">
+                        <ul class="clearfix">
+                            <li class="copyright">&copy; 2014 Twitter</li>
+                            <li><a>About</a></li>
+                            <li><a>Help</a></li>
+                            <li><a>Terms</a></li>
+                            <li><a>Privacy</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Status</a></li>
+                            <li><a>Apps</a></li>
+                            <li><a>Resources</a></li>
+                            <li><a>Jobs</a></li>
+                            <li><a>Advertisers</a></li>
+                            <li><a>Businesses</a></li>
+                            <li><a>Media</a></li>
+                            <li><a>Developers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div role="main" aria-labelledby="content-main-heading" class="content-main" id="timeline">
+            <div class="content-header">
+                <div class="header-inner">
+                    <h2 id="content-main-heading">Tweets</h2>
+                </div>
+            </div>
+            <div class="stream-container conversations-enabled">
+                <div class="stream home-stream">
+                    <ol class="stream-items" id="stream-items-id">
+                        <div ng-repeat="tweet in data.tweets|orderBy:'$$hashKey':true" >
+                        <li class="stream-item stream-item expanding-stream-item">
+                            <div class="tweet original-tweet"
+                                 data-screen-name="{{tweet.entities.user_mentions[0].screen_name}}"
+                                 data-name="{{tweet.entities.user_mentions[0].name}}"
+                                 data-you-follow="true"
+                                 data-you-block="false">
+                                <div class="content">
+                                    <div class="stream-item-header">
+                                        <a class="account-group">
+                                            <img class="avatar"
+                                                 src="{{tweet.entities.user_mentions[0].profile_pic}}"
+                                                 alt="">
+                                            <strong class="fullname">{{tweet.entities.user_mentions[0].name}}</strong>
+                                            <span>&rlm;</span><span class="username"><s>@</s><b>{{tweet.entities.user_mentions[0].screen_name}}</b></span>
+                                        </a>
+                                        <small class="time">
+                                            <a href="/computingnow/status/376911931497394176"
+                                               class="tweet-timestamp"><span
+                                                    class="_timestamp">{{tweet.date | date:'medium'}}</span></a>
+                                        </small>
+                                    </div>
+                                    <p class="tweet-text">{{tweet.text}}</p>
+                                    <div class="stream-item-footer">
+                                        <a class="details">
+                                       <span class="details-icon">
+                                       </span>
+                                        </a>
+                                        <ul class="tweet-actions">
+                                            <li class="action-reply-container">
+                                                <a role="button">
+                                                    <img class = "icon reply" src="css/images/reply.svg">  </img>
+                                                    <b>Reply</b>
+                                                </a>
+                                            </li>
+                                            <li class="action-rt-container">
+                                                <a role="button" class="retweet">
+                                                    <img class = "icon retweet-icon" src="css/images/retweet.svg">  </img>
+                                                    <b>Retweet</b>
+                                                </a>
+                                            </li>
+                                            <li class="action-fav-container">
+                                                <a role="button" class="favorite">
+                                                    <img class = "icon favorite-icon" src="css/images/favorite.svg">  </img>
+                                                    <b>Favorite</b>
+                                                </a>
+                                            </li>
+                                            <li class="more-tweet-actions">
+                                                <div class="action-more-container">
+                                                    <div class="dropdown">
+                                                        <button type="button"
+                                                                class="btn-link">
+                                                            <img class = "icon more" src="css/images/more.svg">  </img>
+                                                            <b>More</b>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src='https://code.angularjs.org/1.0.7/angular.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src="twitter.js"></script>
+</body>
+</html>

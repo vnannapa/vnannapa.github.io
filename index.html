@@ -79,7 +79,7 @@
                 </div>
                 <div class="home-tweet-box tweet-box component tweet-user">
                     <form ng-submit="create_tweet()">
-                        <input placeholder="{{placeholder}}" class="tweet-box-shadow" ng-model="tweet.text" />
+                        <input placeholder="{{placeholder}}" class="tweet-box-shadow" ng-model="tweet.text" maxlength="140"/>
                     </form>
                 </div>
             </div>
